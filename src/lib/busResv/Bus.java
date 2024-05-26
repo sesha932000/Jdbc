@@ -30,7 +30,7 @@ Bus(int busNo,boolean ac,int capacity){
  capacity = cap;
     }
     public void displayBusInfo(){
-System.err.println("Bus No" + busNo1 + " Ac:" + ac  + " Total capacity: " + capacity );
+System.err.println("BusNo" + busNo1 + " Ac:" + ac  + " Total capacity: " + capacity );
 
     }
 

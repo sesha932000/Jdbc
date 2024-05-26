@@ -30,7 +30,7 @@ public void setCapacity(int cap){
 }
 
 public void displayBusInfo(){
-    System.out.println("BesNo : "+busNo+ " Ac: " +ac+ " Total capacity: "+capacity);
+    System.out.println("BusNo : "+busNo+ " Ac: " +ac+ " Total capacity: "+capacity);
 }
 
 }
