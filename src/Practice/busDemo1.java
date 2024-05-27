@@ -1,3 +1,6 @@
+package Practice;
+
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

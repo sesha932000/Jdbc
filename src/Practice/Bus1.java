@@ -1,3 +1,5 @@
+package Practice;
+
 
 
 public class Bus1{
@@ -5,6 +7,7 @@ public class Bus1{
     private boolean ac;
    private int capacity;
 
+   
 Bus1(int busNo ,boolean ac ,int capacity){
     this.busNo =  busNo;
     this.ac = ac;

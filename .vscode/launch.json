@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "BusDemo",
+            "request": "launch",
+            "mainClass": "busResv.BusDemo",
+            "projectName": "JDBC"
+        },
+        {
             "type": "jdk",
             "request": "launch",
             "name": "Launch Java App"
