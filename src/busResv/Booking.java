@@ -8,6 +8,9 @@ public class Booking{
  String passengerName;
  int busNo;
 Date date;
+String Destination_From;
+String Destination_To;
+
 
 Booking(){
     Scanner scanner = new Scanner(System.in);
@@ -15,6 +18,10 @@ Booking(){
 passengerName = scanner.next();
 System.out.println("Enter bus No : ");
 busNo = scanner.nextInt();
+System.out.println("Destination From: ");
+Destination_From =scanner.next();
+System.out.println(" Destination To: ");
+Destination_To =scanner.next();
 System.out.println("Enter date dd/mm/yyyy");
 String dateInput = scanner.next();
 SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");

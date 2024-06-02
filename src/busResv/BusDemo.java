@@ -1,6 +1,5 @@
 package busResv;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class BusDemo{
@@ -27,7 +26,7 @@ try {
         System.out.println("Enter 1 to Book and Enter 2 to Exit");
         user = scanner.nextInt();
         if(user == 1 ){
-            Booking booking =new Booking();
+            Booking booking =new Booking(); 
             if(booking.isAvailable()){
                 Booking_data_access_object bookingDao =new Booking_data_access_object();
                 bookingDao.addBooking(booking);
